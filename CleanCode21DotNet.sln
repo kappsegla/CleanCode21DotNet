@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivia", "Trivia\Trivia.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriviaTest", "TriviaTest\TriviaTest.csproj", "{D59F13E9-4815-4AE7-AF1B-51E7E17EA751}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepsons", "Stepsons\Stepsons.csproj", "{0FD5B449-92B7-416A-BC46-660AB4F486BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D59F13E9-4815-4AE7-AF1B-51E7E17EA751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59F13E9-4815-4AE7-AF1B-51E7E17EA751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59F13E9-4815-4AE7-AF1B-51E7E17EA751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD5B449-92B7-416A-BC46-660AB4F486BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD5B449-92B7-416A-BC46-660AB4F486BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD5B449-92B7-416A-BC46-660AB4F486BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD5B449-92B7-416A-BC46-660AB4F486BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,6 +2,8 @@
 {
     public class Stepsons
     {
+        private static int computerScore;
+
         static void Main(string[] args)
         {
             StenSaxPåse();
@@ -11,7 +13,7 @@
         {
             Random ran = new Random();
 
-            int computerScore = 0;
+            computerScore = 0;
             int playerScore = 0;
             int computerChoice;
             int playerInput;
@@ -41,7 +43,7 @@
                         playerScore++;
 
                         Console.WriteLine("\nDu vann!");
-                        Console.WriteLine("Du har: " + playerScore + " poäng.\nDatorn har: " + computerScore);
+                        PrintScore(playerScore, computerScore);
                     }
                     else if (((playerInput == 2) && (computerChoice == 1)) || ((playerInput == 3) && (computerChoice == 2))
                           || ((playerInput == 1) && (computerChoice == 3)))
@@ -75,6 +77,11 @@
                 Console.WriteLine("\nGrattis datorn! Datorn fick: " + computerScore + "\nDu fick: " + playerScore + "\nDatorn vann över dig!\n");
             }
 
+        }
+
+        private static void PrintScore(int playerScore, int computerScore)
+        {
+            Console.WriteLine("Du har: " + playerScore + " poäng.\nDatorn har: " + computerScore);
         }
     }
 }

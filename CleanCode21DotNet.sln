@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriviaTest", "TriviaTest\Tr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stepsons", "Stepsons\Stepsons.csproj", "{0FD5B449-92B7-416A-BC46-660AB4F486BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{22156580-3E96-4988-B5A3-42771945997C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRose", "GildedRose\GildedRose.csproj", "{22156580-3E96-4988-B5A3-42771945997C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

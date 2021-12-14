@@ -7,14 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="GildedRose.cs" />
-    <Compile Remove="Item.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="GildedRose.cs" />
-    <None Include="Item.cs" />
-  </ItemGroup>
-
 </Project>

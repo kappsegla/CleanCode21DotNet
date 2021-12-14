@@ -1,6 +1,6 @@
-namespace GildedRose
+﻿namespace Shop
 {
-    class GildedRose
+    internal class GildedRose
     {
         Item[] items;
 
@@ -11,14 +11,14 @@ namespace GildedRose
 
         public void UpdateQuality()
         {
-            for (int i = 0; i < items.length; i++)
+            for (int i = 0; i < items.Length; i++)
             {
-                if (!items[i].name.equals("Aged Brie")
-                        && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert"))
+                if (!items[i].name.Equals("Aged Brie")
+                        && !items[i].name.Equals("Backstage passes to a TAFKAL80ETC concert"))
                 {
                     if (items[i].quality > 0)
                     {
-                        if (!items[i].name.equals("Sulfuras, Hand of Ragnaros"))
+                        if (!items[i].name.Equals("Sulfuras, Hand of Ragnaros"))
                         {
                             items[i].quality = items[i].quality - 1;
                         }
@@ -30,7 +30,7 @@ namespace GildedRose
                     {
                         items[i].quality = items[i].quality + 1;
 
-                        if (items[i].name.equals("Backstage passes to a TAFKAL80ETC concert"))
+                        if (items[i].name.Equals("Backstage passes to a TAFKAL80ETC concert"))
                         {
                             if (items[i].sellIn < 11)
                             {
@@ -51,20 +51,20 @@ namespace GildedRose
                     }
                 }
 
-                if (!items[i].name.equals("Sulfuras, Hand of Ragnaros"))
+                if (!items[i].name.Equals("Sulfuras, Hand of Ragnaros"))
                 {
                     items[i].sellIn = items[i].sellIn - 1;
                 }
 
                 if (items[i].sellIn < 0)
                 {
-                    if (!items[i].name.equals("Aged Brie"))
+                    if (!items[i].name.Equals("Aged Brie"))
                     {
-                        if (!items[i].name.equals("Backstage passes to a TAFKAL80ETC concert"))
+                        if (!items[i].name.Equals("Backstage passes to a TAFKAL80ETC concert"))
                         {
                             if (items[i].quality > 0)
                             {
-                                if (!items[i].name.equals("Sulfuras, Hand of Ragnaros"))
+                                if (!items[i].name.Equals("Sulfuras, Hand of Ragnaros"))
                                 {
                                     items[i].quality = items[i].quality - 1;
                                 }

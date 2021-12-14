@@ -1,4 +1,4 @@
-namespace GildedRose
+﻿namespace Shop
 {
     public class Item
     {
